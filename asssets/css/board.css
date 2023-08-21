@@ -166,7 +166,7 @@ body {
 }
 
 .list {
-  height: calc(100% - 90px);
+  height: calc(100vh - 400px);
 }
 
 .card-head {
@@ -631,13 +631,17 @@ body {
 
 }
 
+@media (max-width: 1395px){
+  .list{
+    height: auto;
+  }
+}
 
 
 
 
 
-
-@media (min-width: 1650px) {
+@media (min-width: 1869px) {
   .task-card {
     max-width: 370px;
     height: auto;
