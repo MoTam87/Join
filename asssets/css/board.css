@@ -99,6 +99,7 @@ body {
   flex-shrink: 1;
 }
 
+
 /*////////////////// Searchbar on Screen 0 - 1024px /////////////////*/
 
 .search-bar {
@@ -412,9 +413,6 @@ body {
   border-bottom-right-radius: 0;
 }
 
-.dis-none {
-  display: none;
-}
 
 .card-change-status {
   display: flex;
@@ -439,6 +437,10 @@ body {
 
 .close-task {
   cursor: pointer;
+}
+
+.dis-none {
+  display: none;
 }
 
 /*---------------*/

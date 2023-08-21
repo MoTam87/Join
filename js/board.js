@@ -1,3 +1,6 @@
+let todos = [];
+let currentDraggedElement;
+
 /**
  * This Function load the tasks from the remote Storage then executes updateHTML to render
  */
@@ -117,8 +120,7 @@ if (window.location.pathname.includes("board.html")) {
   }
 }
 
-let todos = [];
-let currentDraggedElement;
+
 
 /**
  * This function first filter the array (todos) by status, then render each list
@@ -288,6 +290,9 @@ async function moveTo(status) {
 function highlight(id) {
   document.getElementById(id).classList.add("drag-area-highlight");
 }
+
+
+
 
 /**
  * This function remove the color when ondragleave the target list by removing a classList
