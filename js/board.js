@@ -292,8 +292,6 @@ function highlight(id) {
 }
 
 
-
-
 /**
  * This function remove the color when ondragleave the target list by removing a classList
  *
