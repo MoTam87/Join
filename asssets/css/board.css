@@ -642,7 +642,7 @@ body {
 
 @media (min-width: 1869px) {
   .task-card {
-    max-width: 370px;
+    max-width: 366px;
     height: auto;
   }
 }
